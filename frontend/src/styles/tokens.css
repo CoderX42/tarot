@@ -1,0 +1,12 @@
+:root {
+  --bg-deep: #00050a;
+  --bg-mid: #1a2b48;
+  --gold: #ffd700;
+  --gold-soft: #fff8e1;
+  --gold-dark: #b8860b;
+  --glass: rgba(32, 24, 56, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --text-gold: #f5e6b8;
+  --font-display: 'Cinzel', 'Times New Roman', serif;
+  --font-ui: 'DM Sans', system-ui, sans-serif;
+}
