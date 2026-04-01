@@ -16,6 +16,10 @@ app.get('/health', (req, res) => {
 // Tarot routes
 app.use('/api/tarot', tarotRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Tarot API server is running on port ${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Tarot API server is running on port ${PORT}`);
+  });
+}
+
+export default app;
