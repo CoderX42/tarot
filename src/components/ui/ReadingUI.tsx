@@ -3,7 +3,7 @@ import { ArrowLeft, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export default function ReadingUI() {
-  const { readingState, question, selectedCards, reset } = useTarotStore();
+  const { readingState, question, selectedCards, readingResult, reset } = useTarotStore();
   const navigate = useNavigate();
 
   const handleBack = () => {
